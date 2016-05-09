@@ -25,7 +25,7 @@ public class myTubeDatabase extends SQLiteOpenHelper{
         db.execSQL("CREATE TABLE1 " + TABLE1_NAME +
         " ( " + USER_COL_1 + "IS LOG IN) ");
         db.execSQL("CREATE TABLE2 " + TABLE2_NAME + " ( " + "FAVORITED VIDEOS COL1: "
-                + FAVORITEVIDEOS_COL_1 + " ID.  FAVORITEVIDEOS COL 2: " + FAVORITEVIDEOS_COL_2 " LINK.  )");
+                + FAVORITEVIDEOS_COL_1 + " ID.  FAVORITEVIDEOS COL 2: " + FAVORITEVIDEOS_COL_2 +" LINK.  )");
     }
 
     @Override
